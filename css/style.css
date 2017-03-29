@@ -1,3 +1,5 @@
+@import url(http://allfont.ru/allfont.css?fonts=lcd2-bold);
+
 *{
 	margin: 0;
 	padding: 0;
@@ -8,12 +10,36 @@ body{
 	width: 100%;
 }
 
-.wrapper{
-	margin: 0 auto;
-	width: 90%;
-	padding: 1%;
-	border-left: 5px dashed magenta;
-	border-right: 5px dashed magenta;
-	min-height: 95vh;
+.clear{
+	clear: both;
 }
+
+.firstMainBlock{
+	width: 100px;
+	height: 100px;
+	margin: 1%;
+	background-color: aqua;
+	border-radius: 10%;
+}
+
+.firstMainBlock p{
+	text-align: center;
+	padding-top: 25px;
+}
+
+.firstMainBlock p span{
+	font-family: 'LCD2 Bold';
+	color: red;
+}
+
+.newBlock{
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 1%;
+	background-color: pink;
+	border-radius: 10%;
+}
+
+
 
