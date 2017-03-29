@@ -9,8 +9,9 @@ body{
 }
 
 .wrapper{
-	margin: 1% auto;
+	margin: 0 auto;
 	width: 90%;
+	padding: 1%;
 	border-left: 5px dashed magenta;
 	border-right: 5px dashed magenta;
 	min-height: 95vh;
